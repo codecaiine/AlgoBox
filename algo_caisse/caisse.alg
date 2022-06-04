@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="AFFICHER &quot; FCFA&quot;"/>
+    <description texte="" courant="POUR client ALLANT_DE 1 A 3"/>
     <extension extnom="inactif"/>
-    <fonction fctetat="inactif" fctcode=""/>
-    <F2 F2para="" F2lignes="" F2defaut="" F2etat="inactif"/>
-    <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
-    <param arrondiAuto="vrai" nbDecimales="8" totalAffichages="1000" maxBoucle="500000" epaisseurPoint="2" totalBoucles="5000000" epaisseurLigne="2"/>
+    <fonction fctcode="" fctetat="inactif"/>
+    <F2 F2lignes="" F2defaut="" F2etat="inactif" F2para=""/>
+    <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
+    <param totalBoucles="5000000" epaisseurPoint="2" maxBoucle="500000" epaisseurLigne="2" arrondiAuto="vrai" totalAffichages="1000" nbDecimales="8"/>
     <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions"/>
     <item algoitem="VARIABLES" code="100#declarationsvariables">
         <item algoitem="client EST_DU_TYPE NOMBRE" code="1#NOMBRE#client"/>
@@ -27,6 +27,7 @@
         <item algoitem="AFFICHER &quot;Bienvenue dans la boutique IIPEA&quot;" code="4#Bienvenue dans la boutique IIPEA#1"/>
         <item algoitem="AFFICHER &quot;***************************&quot;" code="4#***************************#1"/>
         <item algoitem="total_recettes PREND_LA_VALEUR 0" code="5#total_recettes#0#pasliste"/>
+        <item algoitem="n PREND_LA_VALEUR 0" code="5#n#0#pasliste"/>
         <item algoitem="POUR client ALLANT_DE 1 A 3" code="12#client#1#3">
             <item algoitem="DEBUT_POUR" code="13#debutpour"/>
             <item algoitem="AFFICHER &quot;Entrez la facture du client numero &quot;" code="4#Entrez la facture du client numero #0"/>
