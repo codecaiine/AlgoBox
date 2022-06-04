@@ -18,3 +18,9 @@ des achats d’un client.
 - **"1000 Francs"**
 - **"500 Francs"**
 - le Reste
+- autant de fois qu’il y a de coupures de chaque sorte à rendre
+
+### NOTE: 
+
+le total des trois ventes doit être enregistré et affiché à la
+fermeture de la boutique
